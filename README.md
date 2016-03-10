@@ -29,7 +29,7 @@ Pré-requis : Installation préalable d'un JDK
 
 ## Execution
 
-Usage : &lt;largeur&gt; &lt;hauteur&gt; (&lt;nombre de thread&gt;)
+Usage : java Projet &lt;largeur&gt; &lt;hauteur&gt; (&lt;nombre de thread&gt;)
 
 ## Credits
 
