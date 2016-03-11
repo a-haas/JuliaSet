@@ -15,6 +15,21 @@ de C a utiliser lors des calculs.
 En effet c’est la valeur de C qui détermine l’apparence du Julia set. Les touches a utiliser sont ctrl+6 pour dézoomer, ctrl+= pour zoomer, et les touches directionnelles pour monter descendre, se deplacer à droite ou à gauche. L’application, pour permettre davantage de performances, est threadable et on peut choisir le nombre de threads à
 utiliser dans le menu de demarrage. 
 
+## Rendu
+
+En prenant C = -0.75 + 0.11i :
+
+<img src="Pics/juliaset1.png" alt="juliaset"></img>
+
+En C = 0.285 + 0.01i :
+
+<img src="Pics/juliaset2.png" alt="juliaset"></img>
+
+
+En prenant C = -0.8 + 0.6i :
+
+<img src="Pics/juliaset3.png" alt="juliaset"></img>
+
 ## Algorithme
 
 Julia set est calculé suite à une itération correspondant à z<sub>n+1</sub> = z<sub>n</sub>² + C. z<sub>0</sub> est le point que l'on désire calculé. Si au cours de l'itération la distance reliant z<sub>n</sub> au centre est supérieur à 2 alors le point ne fait pas partie du Julia set.  

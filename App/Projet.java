@@ -25,6 +25,6 @@ public class Projet {
         if(args.length == 3)
             nbThread = Integer.parseInt(args[2]);
         
-        new Window(1600, 900, nbThread);
+        new Window(Integer.parseInt(args[0]), Integer.parseInt(args[1]), nbThread);
     }
 }
